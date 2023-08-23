@@ -1,19 +1,19 @@
 /* Reset de margens e preenchimentos para o corpo */
-* {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
     line-height: 1.6;
     color: #333;
+}
 
-  }
-
-  .container {
+  .container{
     max-width: 80%;
     margin: 0px auto;
     padding: 20px;
@@ -21,104 +21,90 @@ body {
     background-color: white;
     border-radius: 10px;
  }
-
- img{
-    max-width: 14%;
+ .foto{
+    max-width: 15.5%;
     height: auto;
     float: right;
-    margin: 2px;
-    border-radius: 10%;
-
- }
- .my-image{
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
     
  }
 
+.foto img{
+    margin: 0px;
+    border: #d4d4d4 solid 1px;
+    padding: 4px;
+    max-width: 100%;
 
-  h1 {
-  
+}
+  h1{
    font-size: 2.5rem;
-   margin-left: 130px;
-   font-size: 30px;
-
-  }
-  h2,p {
+   margin: 0;
+   padding: 0;
+}
+  h2,p{
     margin-bottom: 15px;
-  }
-
-  h3{
+}
+  h2{
     color: #ff6b6b;
     margin-bottom: 10px;
-
-
-  }
-  .about{
+    font-size: 1.5rem;
+}
+  #about{
     border :#333 solid 1px;
-    padding: 0px;
+    padding: 7px;
     margin-bottom: 30px;
+    height: 195px;
 
-  }
-  .about p,h1{
-    padding:  0 20px;
-  }
-  .education,.experience,.skills,.communication,.courses,.leadership,.objective{
+
+    
+
+}
+#about p{
+    padding: 0;
+    margin: 0;
+}
+  .box{
     margin-bottom: 30px;
     padding: 20px;
     background-color: #ccc;
     border-radius: 10px;
-
-  }
+}
   ul{
     list-style-type: disc;
     padding-left: 20px;
     margin-top: 10px;
-  }
+}
   li{
-    margin-bottom: 5px;
-
-  }
+    margin-bottom: 5px
+}
   .navbar{
     background-color: #2a2e3d;
     padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 100;
-  }
+}
   .nav-list{
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   .nav-list li{
     margin: 0 15px;
-
-  }
+}
   .nav-list a{
     text-decoration:none;
     color:#f0f2f5;
     font-weight: bold;
-
-  }
+}
   .nav-list a:hover{
     color:#ff6b6b;
-
-  }
+}
   .clearfix::after{
     content: "";
     display: table;
     clear: both;
-  }
-
-
-
-  
-   
-
-
-
-
-    
-   
-
-  
+}
